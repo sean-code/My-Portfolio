@@ -1,0 +1,95 @@
+/* ABOUT ME */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+/* NAVBAR */
+.top{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+nav{
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgba(10, 14, 29);
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px 15px;
+    list-style: none;
+    justify-content:space-between;
+    font-size: larger;
+}
+nav li button{
+    color:orange;
+    background-color: rgb(22, 48, 19);
+    padding: 7px;
+    border-radius: 10px;
+    font-size: larger;
+    margin-left: 60%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: orange;
+}
+
+nav ul li a:hover{
+    color: #F61D1D;
+}
+
+/* SECTION 2 */
+.about{
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background: rgba(0, 0, 0, 0.6) url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80');
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+}
+
+.about{
+    padding-bottom: 6%;
+}
+
+#image-2{
+    height:10%;
+    width: 30%;
+    float:left;
+    border-radius: 20px;
+}
+.about-me{
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+.about-me h1{
+    padding-bottom: 3%;
+}
+.about-me p{
+    font-size: x-large;
+    padding: 1%;
+}
+.about-me p span{
+    font-size: xx-large;
+}
+.about-me p a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: orange;
+    padding: 10px;
+    background-color:#F61D1D;
+    border-radius: 10px;
+}
+.about-me p a:hover{
+    color: white;
+}
